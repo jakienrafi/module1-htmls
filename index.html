@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <!-- this is title of this page -->
     <title>My Travel blog</title>
+    <style>
+        button{
+           padding: 5px;
+            margin: 15px;
+            color: blue;
+            font-size: x-large;
+            font-weight: bolder;
+            border: 2px slateblue solid;
+            border-radius: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
+    <!-- useing External CSS with class and id  -->
   <h1>
-    <i>My Travel Blog About Himachal</i>
+    <i>My Travel Blog About Himachal . . . . . </i>
 </h1>
     <div>
 
@@ -19,13 +35,13 @@
             
             Shimla, the state capital, is popular among tourists. The Kalka-Shimla Railway is a mountain railway which is a UNESCO World Heritage Site.[3] Shimla is also a famous skiing attraction in India. Other popular hill stations include Manali, Kinnuar, Kasol, Parvati Valley, Chamba, Kullu, Kinnar Kailesh, and Kasauli.
         </p>
-        <button>Read More</button>
+        <button class="btn">Read More</button>
     </div>
         <br>
         <p>
-            Himachal Pradesh is also called the organic product bin of India, <span> what i bought </span> from here beans or other legumes in your backyard or garden? Have you ever heard about seed inoculation and how you can use it to produce more yield? Let,s learn […]
+            Himachal Pradesh is also called the organic product bin of India,<span class="bl">what i bought</span>from here beans or other legumes in your backyard or garden? Have you ever heard about seed inoculation and how you can use it to produce more yield? Let,s learn […]
         </p>
-        <h3>what i bought from Himachal</h3>
+        <h2 id="lines">what i bought from Himachal</h2>
 <ol>
     <li>Kinnauri shawls</li>
     <li>Himachali Hats and Cap</li>
@@ -36,9 +52,9 @@
 
 
 <p>
-    The day-to-day food of Himachalis <span>My Favourite food</span> is very similar to the rest of north India. They too have lentil, broth, rice, vegetables and bread, Rajmaha, Sidhu. As compared to other states in north India non-vegetarian cuisine is preferred. Traditionally, Himachali cuisine is dominated by red meat and wheat bread.
+    The day-to-day food of Himachalis<span class="bl">My Favourite food</span>is very similar to the rest of north India. They too have lentil, broth, rice, vegetables and bread, Rajmaha, Sidhu. As compared to other states in north India non-vegetarian cuisine is preferred. Traditionally, Himachali cuisine is dominated by red meat and wheat bread.
 </p>
-<h3> Favourite food of Himachal</h3>
+<h2 id="lines"> Favourite food of Himachal</h2>
 <ul>
 <li>Madra</li>
 <li>Dhaam</li>
@@ -46,7 +62,13 @@
 <li>Bhey or Spicy Lotus stems</li>
 <li>Chha Gosht</li>
 </ul>
-    
 
+
+<!-- useing inline css -->
+    <img src="images/images.jpeg" alt="image of Himachal Pradesh" width="600px" height="400px">
+    <br>
+
+<!--useing internal css -->
+ <button><a href="https://youtu.be/3MGTmB3AK1E"> more on this video click here</a></button>
 </body>
 </html>
